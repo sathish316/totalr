@@ -15,10 +15,10 @@ end
 
 This creates a method which calculates percentage of goals:attempts for all players in the model.
 
-Totalr does not serve to replace any aggregation mechanism already provided by the ORM or Enumerable module.
+Totalr does not serve to replace any aggregation mechanism already provided by ORM or Enumerable.
 It only complements them by generating methods like this.
 
 You can give custom names to generated methods using :as key
-For documentation/features look at spec/total_spec.rb
+For documentation/features look at spec/totalr_spec.rb
 
 More features like mean, variance are still under development.
