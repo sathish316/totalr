@@ -5,15 +5,15 @@ It is inspired by the statistical capabilities of R. Currently it does not even 
 
 But it still lets you do aggregations like totaling, percentage, grouping in your model easily:
 
-class Team
-  total :players, using: :goals, by: :age
-end
+    class Team
+      total :players, using: :goals, by: :age
+    end
 
 This creates a dynamic method total_player_goals_by_age which takes an age param.
 
-class Team
-  percentage :total_player_goals, of: :total_player_attempts, as: :goals_to_attempts
-end
+    class Team
+      percentage :total_player_goals, of: :total_player_attempts, as: :goals_to_attempts
+    end
 
 This creates a method which calculates percentage of goals:attempts for all players in the model.
 
