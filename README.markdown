@@ -1,3 +1,5 @@
+<a href="http://travis-ci.org/#!/sathish316/totalr"><img src="https://travis-ci.org/sathish316/totalr.png"></img></a>
+
 Totalr is a ruby library which gives a dsl that lets you do aggregations in your model declaratively.
 It is inspired by the statistical capabilities of R. Currently it does not even do 1 % of what R does.
 
