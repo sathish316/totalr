@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Totalr::VERSION
   s.authors     = ["Sathish"]
   s.email       = ["sathish316@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "http://www.github.com/sathish316/totalr"
   s.summary     = %q{Totalr is a lib which provides a simple dsl to do aggregation in models, like totals, percentage, grouping, mean, variance et
 c}
   s.description = %q{Totalr is a lib which provides a simple dsl to do aggregation in models, like totals, percentage, grouping, mean, variance et
